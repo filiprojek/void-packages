@@ -1,0 +1,15 @@
+# Template file for 'python3-bandcamp-api'
+pkgname=python3-bandcamp-api
+version=0.2.3
+revision=1
+build_style=python3-pep517
+hostmakedepends="python3-setuptools python3-wheel"
+depends="python3"
+#checkdepends="python3-wheel python3-pytest"
+short_desc="Simple way to get info from Bandcamp"
+maintainer="Filip Rojek <filip@filiprojek.cz>"
+license="GPL-3.0-or-later"
+homepage="https://pypi.org/project/bandcamp-api"
+distfiles="${PYPI_SITE}/b/bandcamp-api/bandcamp_api-${version}.tar.gz"
+checksum=eff597328edf083307013a7884407c6fb7cd2568ac52fd3a85b3fe3bcefc3e1b
+make_check=no # no tests available
