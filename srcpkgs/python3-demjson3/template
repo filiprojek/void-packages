@@ -1,0 +1,15 @@
+# Template file for 'python3-demjson3'
+pkgname=python3-demjson3
+version=3.0.5
+revision=1
+build_style=python3-pep517
+hostmakedepends="python3-setuptools"
+makedepends=""
+depends="python3"
+short_desc="Python module for JSON data encoding, including jsonlint"
+maintainer="Filip Rojek <filip@filiprojek.cz>"
+license="LGPL-3.0-or-later"
+homepage="https://github.com/nielstron/demjson3"
+changelog="https://raw.githubusercontent.com/nielstron/demjson3/master/docs/CHANGES.txt"
+distfiles="https://github.com/nielstron/demjson3/archive/v${version}/python3-demjson3-${version}.tar.gz"
+checksum=badbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadbadb
